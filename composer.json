@@ -1,0 +1,22 @@
+{
+    "name": "fkrzski/validator",
+    "description": "A powerful, fast, easy-to-use stand-alone PHP package for data validation that doesn't suck",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "9.5.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "fkrzski\\Validator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "fkrzski",
+            "email": "filip.krzyzanowski@protonmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
